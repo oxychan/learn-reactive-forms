@@ -1,0 +1,5 @@
+{
+    "field_required": "Field must not be empty",
+    "email_required": "Input must be an email",
+    "password_not_match": "Pasword confirmation does'nt match"
+}

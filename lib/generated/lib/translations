@@ -1,0 +1,28 @@
+// DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
+// ignore_for_file: prefer_single_quotes
+
+import 'dart:ui';
+
+import 'package:easy_localization/easy_localization.dart' show AssetLoader;
+
+class CodegenLoader extends AssetLoader{
+  const CodegenLoader();
+
+  @override
+  Future<Map<String, dynamic>?> load(String path, Locale locale) {
+    return Future.value(mapLocales[locale.toString()]);
+  }
+
+  static const Map<String,dynamic> en = {
+  "field_required": "Field must not be empty",
+  "email_required": "Input must be an email",
+  "password_not_match": "Pasword confirmation does'nt match"
+};
+static const Map<String,dynamic> id = {
+  "field_required": "Inputan tidak boleh kosong",
+  "email_required": "Input harus berupa email",
+  "password_not_match": "Konfirmasi password tidak sesuai"
+};
+static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "id": id};
+}

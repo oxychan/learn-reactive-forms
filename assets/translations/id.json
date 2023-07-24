@@ -1,0 +1,5 @@
+{
+    "field_required": "Inputan tidak boleh kosong",
+    "email_required": "Input harus berupa email",
+    "password_not_match": "Konfirmasi password tidak sesuai"
+}
